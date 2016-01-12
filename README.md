@@ -1,4 +1,4 @@
-This script wiil fetch result from www.hseb.ntc.net.np.
+This script will fetch result from www.hseb.ntc.net.np.
 
 ===========
 USAGE:
