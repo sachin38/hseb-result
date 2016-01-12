@@ -3,7 +3,7 @@ This script will fetch result from www.hseb.ntc.net.np.
 ===========
 USAGE:
 	./hseb.py 12345680
-	python hseb.py 12345680
+	or python hseb.py 12345680
 
 
 
