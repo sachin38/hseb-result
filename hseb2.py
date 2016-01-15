@@ -1,3 +1,12 @@
+"""
+This script is written by Sachin Adhikari. This script will 
+ask for symbol number and give you the result of hseb exam either
+you have passed or failed
+
+Libraries required
+    BeautifulSoup and requests
+
+"""
 #!/usr/bin/env python2
 
 from bs4 import BeautifulSoup
