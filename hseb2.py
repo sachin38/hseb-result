@@ -4,6 +4,16 @@ from bs4 import BeautifulSoup
 import sys
 import requests
 
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 def mainFunctions():
     #taking input of symbol number
     print "Enter the symbol number:"
@@ -32,6 +42,6 @@ def mainFunctions():
         result = div.find("div").text
 
     # returning the result 
-    print result
+    print bcolors.WARNING + result + bcolors.ENDC
 
 mainFunctions()
