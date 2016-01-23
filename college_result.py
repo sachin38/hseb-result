@@ -39,11 +39,17 @@ def main():
     print "Enter the ending symbol number"
     symbol_end = int(raw_input())
 
+    # Variables to store number of passed and failed students
     count_passed = 0
     count_failed = 0
+    
+    # This will create a list of symbol numbers
     symbol_list = range(symbol_start, symbol_end + 1)
+    
+    #transfering value of symbol_start in e
     e = symbol_start
 
+    #Looping through the list of symbol numbers to gather result
     for e in symbol_list:
         if(resultFetch(e) == "passed"):
             print "\n\nSymbol number:", e
@@ -63,6 +69,7 @@ def main():
             count_failed = count_failed + 1
         e = e + 1
 
+    #Printing the results 
     print "\nThe students from symbol number",symbol_start,"to symbol number",symbol_end
     print "The number of students college are", len(symbol_list)
     print "The number of students passed are", count_passed
