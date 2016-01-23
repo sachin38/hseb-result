@@ -1,6 +1,6 @@
 This script will fetch result from www.hseb.ntc.net.np.
-*You can use any of the three scripts*
-### THIRD SCRIPT IS TO FETCH RESULT OF WHOLE COLLEGE, you need to provide starting and ending symbol number
+*You can use any of the two scripts*
+### college_result.py IS TO FETCH RESULT OF WHOLE COLLEGE, you need to provide starting and ending symbol number
 
 Libraries required
 ============
@@ -8,11 +8,7 @@ Libraries required
 
 USAGE
 ===========
-	For hseb.py
-	-----------
-	./hseb.py 12345680
-	or python hseb.py 12345680
-
+	
 	For hseb2.py
 	------------
 	python hseb2.py
@@ -23,5 +19,5 @@ USAGE
 
 CREDITS
 ===========
-	This is the script written by Brother Sabin Parajulee.
+	Brother Sabin Parajulee and brother Amit Chaudhary.
 	Idea by Sachin Adhikari.
