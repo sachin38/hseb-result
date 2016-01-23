@@ -29,28 +29,43 @@ def resultFetch(number):
         result = div.find("div").text
 
     if "Congratulation" in result:
-        return True
+        return "passed"
     else:
-        return False
+        return "failed"
 
+def main():
+    print "Enter the starting symbol number"
+    symbol_start = int(raw_input())
+    print "Enter the ending symbol number"
+    symbol_end = int(raw_input())
 
-print "Enter the starting symbol number"
-symbol_start = int(raw_input())
-print "Enter the ending symbol number"
-symbol_end = int(raw_input())
+    count_passed = 0
+    count_failed = 0
+    symbol_list = range(symbol_start, symbol_end + 1)
+    e = symbol_start
 
-count_passed = 0
-count_failed = 0
-symbol_list = range(symbol_start, symbol_end + 1)
-e = symbol_start
-print "The number of students in college are", len(symbol_list)
+    for e in symbol_list:
+        if(resultFetch(e) == "passed"):
+            print "\n\nSymbol number:", e
+            print resultFetch(e)
+            text_file = open('passed.txt', 'a')
+            text_file.write(str(e))
+            text_file.write("\n")
+            text_file.close()
+            count_passed = count_passed + 1
+        else:
+            print "\n\nSymbol number:", e
+            print resultFetch(e)
+            text_file = open('failed.txt', 'a')
+            text_file.write(str(e))
+            text_file.write("\n")
+            text_file.close()
+            count_failed = count_failed + 1
+        e = e + 1
 
-for e in symbol_list:
-    if(resultFetch(e) == True):
-        count_passed = count_passed + 1
-    else:
-        count_failed = count_failed + 1
-    e = e + 1
+    print "\nThe students from symbol number",symbol_start,"to symbol number",symbol_end
+    print "The number of students college are", len(symbol_list)
+    print "The number of students passed are", count_passed
+    print "The number of students failed are", count_failed
 
-print "The number of students passed are", count_passed
-print "The number of students failed are", count_failed
+main()
