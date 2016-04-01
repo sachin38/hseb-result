@@ -20,4 +20,5 @@ USAGE
 CREDITS
 ===========
 	Brother Sabin Parajulee and brother Amit Chaudhary.
-	Idea by Sachin Adhikari.
+	
+	Second script coded by Sachin Adhikari.

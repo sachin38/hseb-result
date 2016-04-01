@@ -1,4 +1,5 @@
 #!/usr/bin/env python2
+
 """
 Copyright 2016 Puskar Adhikari (sachin.adhikari38@gmail.com)
 
@@ -14,6 +15,14 @@ PARTICULAR PURPOSE. See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License along with 
 this program. If not, see <http://www.gnu.org/licenses/>.
 """
+                         ########################
+                         ###  INFORMATION     ###
+#########################################################################
+# This program will ask for starting and ending symbol number and       #
+# find the passed and failed students in hseb examination. It will      #
+# write the symbol number of passed student to passed.txt and failed    #
+# to failed.txt. Result will be fetched from http://www.hseb.ntc.net.np #
+#########################################################################
 
 from bs4 import BeautifulSoup
 import sys
