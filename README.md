@@ -1,6 +1,6 @@
 This script will fetch result from www.hseb.ntc.net.np.
 *You can use any of the two scripts*
-### college_result.py IS TO FETCH RESULT OF WHOLE COLLEGE, you need to provide starting and ending symbol number
+### college result.py *IS TO FETCH RESULT OF WHOLE COLLEGE*, you need to provide starting and ending symbol number
 
 Libraries required
 ============
