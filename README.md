@@ -21,4 +21,3 @@ CREDITS
 ===========
 	Brother Sabin Parajulee and brother Amit Chaudhary.
 	
-	Second script coded by Sachin Adhikari.
