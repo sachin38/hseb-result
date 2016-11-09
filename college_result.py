@@ -31,7 +31,7 @@ import requests
 def resultFetch(number):
 
        #url of the site
-    url = "http://www.hseb.ntc.net.np/result.php/"
+    url = "http://neb.ntc.net.np/result.php/"
 
     #making post request with symbol number
     req = requests.post(
@@ -43,7 +43,7 @@ def resultFetch(number):
     response = req.text
 
     #passing it through BeautifulSoup function
-    soup = BeautifulSoup(response, "lxml")
+    soup = BeautifulSoup(response, "html.parser")
 
     #finding appropriate portion since the text is within div id show-result
     res_div = soup.find_all("div", id="show-result")
