@@ -1,4 +1,4 @@
-This script will fetch result from www.hseb.ntc.net.np.
+This script will fetch result from http://neb.ntc.net.np
 *You can use any of the two scripts*
 ### college result.py *IS TO FETCH RESULT OF WHOLE COLLEGE*, you need to provide starting and ending symbol number
 
