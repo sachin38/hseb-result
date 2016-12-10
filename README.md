@@ -19,5 +19,5 @@ USAGE
 
 CREDITS
 ===========
-	Brother Sabin Parajulee and brother Amit Chaudhary.
+	Sabin Parajulee and brother Amit Chaudhary.
 	
