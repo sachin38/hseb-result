@@ -16,7 +16,7 @@ class bcolors:
 
 def mainFunctions():
     #taking input of symbol number
-    print "Enter the symbol number:"
+    print "Enter the symbol number:",
     number = raw_input()
 
     #url of the site
