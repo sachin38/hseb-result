@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 
 """
-Copyright 2016 Puskar Adhikari (sachin.adhikari38@gmail.com)
+Copyright 2017 Puskar Adhikari (sachin.adhikari38@gmail.com)
 
 This program is free software: you can redistribute it and/or modify it under 
 the terms of the GNU General Public License as published by the Free Software 
