@@ -21,7 +21,7 @@ this program. If not, see <http://www.gnu.org/licenses/>.
 # This program will ask for starting and ending symbol number and       #
 # find the passed and failed students in hseb examination. It will      #
 # write the symbol number of passed student to passed.txt and failed    #
-# to failed.txt. Result will be fetched from http://www.hseb.ntc.net.np #
+# to failed.txt. Result will be fetched from http://neb.ntc.net.np      #
 #########################################################################
 
 from bs4 import BeautifulSoup
